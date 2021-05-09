@@ -1,18 +1,6 @@
 const DataTable = () => {
   return (
     <div className="table-responsive">
-      <table className="table table-striped table-sm">
-        <thead>
-          <tr>
-            <th>Data</th>
-            <th>Vendedor</th>
-            <th>Clientes visitados</th>
-            <th>Negócios fechados</th>
-            <th>Valor</th>
-          </tr>
-        </thead>
-        <tbody>
-        <div className="table-responsive">
     <table className="table table-striped table-sm">
         <thead>
             <tr>
@@ -97,9 +85,6 @@ const DataTable = () => {
         </tbody>
     </table>
 </div>
-        </tbody>
-      </table>
-    </div>
   );
 };
 
